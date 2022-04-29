@@ -46,6 +46,11 @@ export class Protocol {
     }
   }
 
+  disconnected(): void {
+    if (this.work && this.currentEval) this.work.emit(this.currentEval);
+    this.work = undefined;
+  }
+
   received(text: string): void {
     if (text === 'uciok') {
       // Analyse without contempt.
