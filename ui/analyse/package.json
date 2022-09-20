@@ -19,7 +19,7 @@
     "@types/highcharts": "=4.2.57",
     "@types/lichess": "2.0.0",
     "@types/yaireo__tagify": "^4.16",
-    "highcharts": "=4.2.5",
+    "highcharts": "=9.0.0",
     "prop-types": "^15.8.1",
     "rollup": "^2",
     "typescript": "^4"
