@@ -29,6 +29,12 @@
 
     section {
       font-size: 1.2em;
+
+      .content {
+        a {
+          word-wrap: break-word;
+        }
+      }
     }
 
     @include breakpoint($mq-not-xx-small) {
