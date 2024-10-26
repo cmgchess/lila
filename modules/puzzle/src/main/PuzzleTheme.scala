@@ -12,7 +12,7 @@ object PuzzleTheme:
 
   case class WithCount(theme: PuzzleTheme, count: Int)
 
-  val mix           = PuzzleTheme(Key("mix"), i.healthyMix, i.healthyMixDescription)
+  val mix           = PuzzleTheme(Key("mix"), i.mix, i.mixDescription)
   val advancedPawn  = PuzzleTheme(Key("advancedPawn"), i.advancedPawn, i.advancedPawnDescription)
   val advantage     = PuzzleTheme(Key("advantage"), i.advantage, i.advantageDescription)
   val anastasiaMate = PuzzleTheme(Key("anastasiaMate"), i.anastasiaMate, i.anastasiaMateDescription)
