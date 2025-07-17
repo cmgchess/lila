@@ -47,7 +47,7 @@ html.light {
   --c-font-clear: #{change-color($c-font, $lightness: 12%)};
   --c-font-clearer: #{change-color($c-font, $lightness: 0%)};
   --c-font-page: #{change-color($c-font, $lightness: 37%)};
-  --c-font-shadow: #fff;
+  --c-font-shadow: hsla(0, 0, 0%, 0);
 
   --c-primary-dim: #{_dim($c-primary)};
   --c-link-hover: #{_clear(saturate($c-primary, 100%), 35%)};
